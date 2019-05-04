@@ -32,9 +32,9 @@ include "sidebar.php";
                       <th>หมายเลขครุภัณฑ์</th>
                       <th>ชื่อครุภัณฑ์</th>
                       <th>สถานที่ตั้ง</th>
-                      <th>วันที่ได้มา</th>
-                      <th>ราคา/หน่วย</th>
-                      <th>ผู้ถือครอง</th>
+                      <th>สถานะ</th>
+                      <th>รายละเอียด</th>
+                      <th></th>
                     </tr>
                   </thead>
                   <tbody>
@@ -42,41 +42,41 @@ include "sidebar.php";
                       <td>คร.25615972645</td>
                       <td>คอมพิวเตอร์</td>
                       <td>SC.6601C</td>
-                      <td>04/05/2019</td>
-                      <td>15,000</td>
-                      <td>นายเอ</td>
+                      <td><font color="red">ถูกยืม</font></td>
+                      <td><a href='assetDetail.php' class='btn btn-primary' id='borrow' ><center>รายละเอียด</center></a></td>
+                      <th><button type="button" class="btn btn-dark">ยืม</button></th>
                     </tr>
                     <tr>
                       <td>คร.25615972646</td>
                       <td>โปรเจคเตอร์</td>
                       <td>SC.6601C</td>
-                      <td>04/05/2019</td>
-                      <td>15,000</td>
-                      <td>นายเอ</td>
+                      <td><font color="red">ถูกยืม</font></td>
+                      <td><a href='assetDetail.php' class='btn btn-primary' id='borrow' ><center>รายละเอียด</center></a></td>
+                      <th><button type="button" class="btn btn-dark">ยืม</button></th>
                     </tr>
                     <tr>
                       <td>คร.25615972647</td>
                       <td>เม้าส์</td>
                       <td>SC.6601C</td>
-                      <td>04/05/2019</td>
-                      <td>200</td>
-                      <td>นายเอ</td>
+                      <td><font color="red">ถูกยืม</font></td>
+                      <td><a href='assetDetail.php' class='btn btn-primary' id='borrow' ><center>รายละเอียด</center></a></td>
+                      <th><button type="button" class="btn btn-dark">ยืม</button></th>
                     </tr>
                     <tr>
                       <td>คร.25615972648</td>
                       <td>คีย์บอร์ด</td>
                       <td>SC.6601C</td>
-                      <td>04/05/2019</td>
-                      <td>500</td>
-                      <td>นายเอ</td>
+                      <td><font color="red">ถูกยืม</font></td>
+                      <td><a href='assetDetail.php' class='btn btn-primary' id='borrow' ><center>รายละเอียด</center></a></td>
+                      <th><button type="button" class="btn btn-dark">ยืม</button></th>
                     </tr>
                     <tr>
                       <td>คร.25615972649</td>
                       <td>โต๊ะคอมพิวเตอร์</td>
                       <td>SC.6601C</td>
-                      <td>04/05/2019</td>
-                      <td>1,500</td>
-                      <td>นายเอ</td>
+                      <td><font color="green">สามารถยืมได้</font></td>
+                      <td><a href='assetDetail.php' class='btn btn-primary' id='borrow' ><center>รายละเอียด</center></a></td>
+                      <td> <a href='borrowAsset.php' class='btn btn-success' id='borrow' ><center>ยืม</center></a>
                     </tr>
                   </tbody>
                 </table>
