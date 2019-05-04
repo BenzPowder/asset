@@ -9,9 +9,9 @@ include "sidebar.php";
 <script type="text/javascript">
 function fncSubmit()
 {
-    if(document.getElementById('cNumber').value == "")
+    if(document.getElementById('assetNumber').value == "")
     {
-        alert('กรุณากรอกรหัสวิชา Ex.322444');
+        alert('กรุณากรอกหมายเลขครุภัณฑ์');
         return false;
     }
 
@@ -42,7 +42,7 @@ function fncSubmit()
           <label>นำเข้าครุภัณฑ์</label> <br><br>
       </div>
       <label>หมายเลขครุภัณฑ์</label>
-      <input type="text" name="assetNumber" class="form-control" required pattern="[a-zA-Z-0-9\s]*" title="กรุณากรอกตัวเลขและตัวอักษร" id="assetNumber" placeholder="">
+      <input type="text" name="assetNumber" class="form-control" required pattern="[ก-ุฯ-a-zA-Z\s]*" title="กรุณากรอกตัวเลขและตัวอักษร" id="assetNumber" placeholder="">
     </div>
     <div class="form-group">
       <label>ชื่อครุภัณฑ์</label>
@@ -50,36 +50,27 @@ function fncSubmit()
     </div>
     <div class="form-group">
       <label>สถานที่ตั้ง</label>
-      <input type="text" name="assetLocation" class="form-control" id="assetLocation" required pattern="[0-9\s]{4}" title="กรุณากรอกปีการศึกษา" placeholder="">
+      <input type="text" name="assetLocation" class="form-control" id="assetLocation" required pattern="[ก-ุฯ-a-zA-Z\s]*" title="กรุณากรอกตัวเลขและตัวอักษร" placeholder="">
     </div>
     <div class="form-group">
       <label>วันที่ได้มา</label>
-      <select class="form-control" name="cTerm" id="cTerm">
-      <option value="1">1</option>
-      <option value="2">2</option>
-    </select>
+      <?php
+         include "calendar.php";
+         ?>
     </div>
     <div class="form-group">
-      <label>จำนวนเซคชัน</label>
-      <select class="form-control" name="cSection" id="cSection">
-      <option value="1">1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5</option>
-      </select>
+      <label>ราคา/หน่วย</label>
+      <input type="text" name="assetPrice" class="form-control" id="assetPrice" placeholder="">
     </div>
     <div class="form-group">
-      <label>รหัสเข้าร่วม</label>
-      <input type="text" class="form-control" name="cPassword" id="cPassword" placeholder="">
+      <label>จำนวน</label>
+      <input type="text" name="assetAmount" class="form-control" id="assetAmount" placeholder="">
     </div>
     <div class="form-group">
-      <label>สถานะรายวิชา</label>
-      <select class="form-control" name="cStatus" id="cStatus">
-      <option value="0">ปิด</option>
-      <option value="1">เปิด</option>
-      </select>
+      <label>ผู้ถือครอง</label>
+      <input type="text" class="form-control" name="assetProsonal" id="assetProsonal" placeholder="">
     </div>
+    <br>
     <div align="center">
       <input type="submit" name="submit" class="btn btn-primary" id="addSubject" value="บันทึก">
     </div>
