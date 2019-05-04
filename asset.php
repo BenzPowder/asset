@@ -52,7 +52,7 @@ include "sidebar.php";
                       <td>นายเอ</td>
                       <td><font color="red">ถูกยืม</font></td>
                       <td><button type="button" class="btn btn-primary">รายละเอียด</button></td>
-                      <th><button type="button" class="btn btn-danger">ยืม</button></th>
+                      <th><button type="button" class="btn btn-dark">ยืม</button></th>
                       
                     </tr>
                     <tr>
@@ -64,7 +64,7 @@ include "sidebar.php";
                       <td>นายเอ</td>
                       <td><font color="red">ถูกยืม</font></td>
                       <td><button type="button" class="btn btn-primary">รายละเอียด</button></td>
-                      <th><button type="button" class="btn btn-danger">ยืม</button></th>
+                      <th><button type="button" class="btn btn-dark">ยืม</button></th>
                     </tr>
                     <tr>
                       <td>คร.25615972647</td>
@@ -75,7 +75,7 @@ include "sidebar.php";
                       <td>นายเอ</td>
                       <td><font color="red">ถูกยืม</font></td>
                       <td><button type="button" class="btn btn-primary">รายละเอียด</button></td>
-                      <th><button type="button" class="btn btn-danger">ยืม</button></th>
+                      <th><button type="button" class="btn btn-dark">ยืม</button></th>
                     </tr>
                     <tr>
                       <td>คร.25615972648</td>
@@ -86,7 +86,7 @@ include "sidebar.php";
                       <td>นายเอ</td>
                       <td><font color="red">ถูกยืม</font></td>
                       <td><button type="button" class="btn btn-primary">รายละเอียด</button></td>
-                      <th><button type="button" class="btn btn-danger">ยืม</button></th>
+                      <th><button type="button" class="btn btn-dark">ยืม</button></th>
                     </tr>
                     <tr>
                       <td>คร.25615972649</td>
@@ -97,7 +97,7 @@ include "sidebar.php";
                       <td> - </td>
                       <td><font color="green">สามารถยืมได้</font></td>
                       <td><button type="button" class="btn btn-primary">รายละเอียด</button></td>
-                      <th><button type="button" class="btn btn-success">ยืม</button></th>
+                      <td> <a href='borrowAsset.php' class='btn btn-success' id='borrow' ><center>ยืม</center></a>
                     </tr>
                   </tbody>
                 </table>
