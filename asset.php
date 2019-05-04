@@ -2,11 +2,13 @@
 // include "config.php";
 include "sidebar.php";
 ?>
+<html>
+
         <!-- End of Topbar -->
 
         <!-- Begin Page Content -->
         <div class="container-fluid">
-
+        
           <!-- Page Heading -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
             <h1 class="h3 mb-0 text-gray-800">ครุภัณฑ์</h1>
@@ -35,6 +37,9 @@ include "sidebar.php";
                       <th>วันที่ได้มา</th>
                       <th>ราคา/หน่วย</th>
                       <th>ผู้ถือครอง</th>
+                      <th>สถานะครุภัณฑ์</th>
+                      <th>ดูรายละเอียด</th>
+                      
                     </tr>
                   </thead>
                   <tbody>
@@ -45,6 +50,10 @@ include "sidebar.php";
                       <td>04/05/2019</td>
                       <td>15,000</td>
                       <td>นายเอ</td>
+                      <td><font color="red">ถูกยืม</font></td>
+                      <td><button type="button" class="btn btn-primary">รายละเอียด</button></td>
+                      <th><button type="button" class="btn btn-danger">ยืม</button></th>
+                      
                     </tr>
                     <tr>
                       <td>คร.25615972646</td>
@@ -53,6 +62,9 @@ include "sidebar.php";
                       <td>04/05/2019</td>
                       <td>15,000</td>
                       <td>นายเอ</td>
+                      <td><font color="red">ถูกยืม</font></td>
+                      <td><button type="button" class="btn btn-primary">รายละเอียด</button></td>
+                      <th><button type="button" class="btn btn-danger">ยืม</button></th>
                     </tr>
                     <tr>
                       <td>คร.25615972647</td>
@@ -61,6 +73,9 @@ include "sidebar.php";
                       <td>04/05/2019</td>
                       <td>200</td>
                       <td>นายเอ</td>
+                      <td><font color="red">ถูกยืม</font></td>
+                      <td><button type="button" class="btn btn-primary">รายละเอียด</button></td>
+                      <th><button type="button" class="btn btn-danger">ยืม</button></th>
                     </tr>
                     <tr>
                       <td>คร.25615972648</td>
@@ -69,6 +84,9 @@ include "sidebar.php";
                       <td>04/05/2019</td>
                       <td>500</td>
                       <td>นายเอ</td>
+                      <td><font color="red">ถูกยืม</font></td>
+                      <td><button type="button" class="btn btn-primary">รายละเอียด</button></td>
+                      <th><button type="button" class="btn btn-danger">ยืม</button></th>
                     </tr>
                     <tr>
                       <td>คร.25615972649</td>
@@ -76,7 +94,10 @@ include "sidebar.php";
                       <td>SC.6601C</td>
                       <td>04/05/2019</td>
                       <td>1,500</td>
-                      <td>นายเอ</td>
+                      <td> - </td>
+                      <td><font color="green">สามารถยืมได้</font></td>
+                      <td><button type="button" class="btn btn-primary">รายละเอียด</button></td>
+                      <th><button type="button" class="btn btn-success">ยืม</button></th>
                     </tr>
                   </tbody>
                 </table>
