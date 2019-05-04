@@ -26,14 +26,14 @@ include "sidebar.php";
             </div>
             <div class="card-body">
               <div class="table-responsive">
-                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <table class="table table-order-column" id="dataTable" width="100%" cellspacing="0">
                   <thead>
                     <tr>
                       <th>หมายเลขครุภัณฑ์</th>
                       <th>ชื่อครุภัณฑ์</th>
                       <th>สถานที่ตั้ง</th>
                       <th>สถานะ</th>
-                      <th>รายละเอียด</th>
+                      <th></th>
                       <th></th>
                     </tr>
                   </thead>
