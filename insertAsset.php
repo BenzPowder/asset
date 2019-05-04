@@ -1,11 +1,9 @@
 <?php
-include "config.php";
+// include "config.php";
 include "sidebar.php";
 ?>
 
-<link rel="stylesheet" type="text/css" href="jquery.datetimepicker.css">
-<script type="text/javascript" src="jquery.js"></script>
-<script type="text/javascript" src="jquery.datetimepicker.js"></script>
+
 
 <html>
 <script type="text/javascript">
@@ -55,12 +53,11 @@ function fncSubmit()
       <input type="text" name="assetLocation" class="form-control" id="assetLocation" required pattern="[0-9\s]{4}" title="กรุณากรอกปีการศึกษา" placeholder="">
     </div>
     <div class="form-group">
-      <form name="itoffside" method="POST">
-	<input type="text" name="startdate" value="" id="startdate" />
-	</form>
-	 <script type="text/javascript">
- jQuery('#startdate').datetimepicker();
- </script>
+      <label>วันที่ได้มา</label>
+      <select class="form-control" name="cTerm" id="cTerm">
+      <option value="1">1</option>
+      <option value="2">2</option>
+    </select>
     </div>
     <div class="form-group">
       <label>จำนวนเซคชัน</label>
@@ -91,4 +88,3 @@ function fncSubmit()
 </div>
 </body>
 </html>
-
