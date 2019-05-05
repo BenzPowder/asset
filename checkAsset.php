@@ -45,7 +45,7 @@ include "sidebar.php";
                       <td>คอมพิวเตอร์</td>
                       <td>SC.6601C</td>
                       <td><font color="red">ถูกยืม</font></td>
-                      <td><a href='assetDetail.php' class='btn btn-primary' id='borrow' ><center>รายละเอียด</center></a></td>
+                      <td><img src="https://www.emissionsdepot.com/product_images/j/651/2d-barcode__58111.png" width="50px" height="50px"></td>
                       <th><input type="checkbox" checked data-toggle="toggle" data-on="ใช่" data-off="ไม่ใช่" data-onstyle="success" data-offstyle="danger"></th>
                     </tr>
                     <tr>
@@ -53,7 +53,7 @@ include "sidebar.php";
                       <td>โปรเจคเตอร์</td>
                       <td>SC.6601C</td>
                       <td><font color="red">ถูกยืม</font></td>
-                      <td><a href='assetDetail.php' class='btn btn-primary' id='borrow' ><center>รายละเอียด</center></a></td>
+                      <td><img src="https://www.emissionsdepot.com/product_images/j/651/2d-barcode__58111.png" width="50px" height="50px"></td>
                       <th><input type="checkbox" checked data-toggle="toggle" data-on="ใช่" data-off="ไม่ใช่" data-onstyle="success" data-offstyle="danger"></th>
                     </tr>
                     <tr>
@@ -61,7 +61,7 @@ include "sidebar.php";
                       <td>เม้าส์</td>
                       <td>SC.6601C</td>
                       <td><font color="red">ถูกยืม</font></td>
-                      <td><a href='assetDetail.php' class='btn btn-primary' id='borrow' ><center>รายละเอียด</center></a></td>
+                      <td><img src="https://www.emissionsdepot.com/product_images/j/651/2d-barcode__58111.png" width="50px" height="50px"></td>
                       <th><input type="checkbox" checked data-toggle="toggle" data-on="ใช่" data-off="ไม่ใช่" data-onstyle="success" data-offstyle="danger"></th>
                     </tr>
                     <tr>
@@ -69,7 +69,7 @@ include "sidebar.php";
                       <td>คีย์บอร์ด</td>
                       <td>SC.6601C</td>
                       <td><font color="red">ถูกยืม</font></td>
-                      <td><a href='assetDetail.php' class='btn btn-primary' id='borrow' ><center>รายละเอียด</center></a></td>
+                      <td><img src="https://www.emissionsdepot.com/product_images/j/651/2d-barcode__58111.png" width="50px" height="50px"></td>
                       <th><input type="checkbox" checked data-toggle="toggle" data-on="ใช่" data-off="ไม่ใช่" data-onstyle="success" data-offstyle="danger"></th>
                     </tr>
                     <tr>
@@ -77,7 +77,7 @@ include "sidebar.php";
                       <td>โต๊ะคอมพิวเตอร์</td>
                       <td>SC.6601C</td>
                       <td><font color="green">สามารถยืมได้</font></td>
-                      <td><a href='assetDetail.php' class='btn btn-primary' id='borrow' ><center>รายละเอียด</center></a></td>
+                      <td><img src="https://www.emissionsdepot.com/product_images/j/651/2d-barcode__58111.png" width="50px" height="50px"></td>
                       <th><input type="checkbox" checked data-toggle="toggle" data-on="ใช่" data-off="ไม่ใช่" data-onstyle="success" data-offstyle="danger"></th></a>
                     </tr>
                   </tbody>

@@ -44,29 +44,27 @@ include "sidebar.php";
 
 
 					<td>
-						<form role="form" method="post" action="">
+						<td>
+							<form role="form" method="post" action="">
 
-							<div class="form-group row">
-								<label for="inputEmail" class="col-sm-3 col-form-label">วันที่ยืม</label>
-								<div class="col-sm-5">
-									<?php
-									include "calendar.php";
-									?>
+								<div class="form-group row">
+									<label for="inputEmail" class="col-sm-3 col-form-label">วันที่ยืม</label>
+									<div class="col-sm-5">
+										<?php
+											include "calendar2.php";
+										?>
+									</div>
 								</div>
-						</form>
-					</td>
-
-					<td>
-						<form role="form" method="post" action="">
-
-							<div class="form-group row">
-								<label for="inputEmail" class="col-sm-3 col-form-label">วันที่คืน</label>
-								<div class="col-sm-5">
-									<?php
-									include "calendar2.php";
-									?>
+								<div class="form-group row">
+									<label for="inputUser" class="col-sm-3 col-form-label">วันที่คืน</label>
+									<div class="col-sm-5">
+										<?php
+											include "calendar.php";
+										?>
+									</div>
 								</div>
-						</form>
+							</form>
+								</td>
 					</td>
 				</tr>
 
@@ -148,4 +146,46 @@ include "sidebar.php";
 									</div>
 								</body>
 							</div>
+
+							<div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+          <a class="btn btn-primary" href="login.html">Logout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="js/sb-admin-2.min.js"></script>
+
+  <!-- Page level plugins -->
+  <script src="vendor/datatables/jquery.dataTables.min.js"></script>
+  <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+  <!-- Page level custom scripts -->
+  <script src="js/demo/datatables-demo.js"></script>
+
+</body>
+
+</html>
+
+<link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.4.0/css/bootstrap4-toggle.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.4.0/js/bootstrap4-toggle.min.js"></script>
 
