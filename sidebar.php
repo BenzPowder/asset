@@ -82,6 +82,11 @@
         <a class="nav-link" href="returnAsset.php">
           <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/transfer-89-537154.png" width="20px" height="20px">
           <span>คืนครุภัณฑ์</span></a>
+      <li class="nav-item">
+        <a class="nav-link" href="changeOwner.php">
+          <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/transfer-89-537154.png" width="20px" height="20px">
+          <span>โอนสิทธิ์ผู้ถือครองครุภัณฑ์</span></a>
+      </li>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="repairAsset.php">

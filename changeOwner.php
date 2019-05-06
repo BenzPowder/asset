@@ -5,7 +5,7 @@ include "sidebar.php";
 
 
 <div align="center">
-	<label>แจ้งซ่อมครุภัณฑ์</label> <br><br>
+	<label>โอนสิทธิ์ผู้ถือครอง</label> <br><br>
 </div>
 
 <body >
@@ -16,35 +16,33 @@ include "sidebar.php";
 				<?php
 				include "calendar2.php";
 				?>
-			</div>
-			<div class="form-group">
-				<label>หน่วยงานที่ส่งซ่อม</label>
-				<input type="text" name="assetName" class="form-control" required pattern="[a-zA-Zก-ุฯ-๙\s]*" title="กรุณากรอกตัวอักษร" id="assetName" placeholder="">
-			</div>
-			<div class="form-group">
-				<label>ผู้แจ้ง</label>
-				<input type="text" name="assetLocation" class="form-control" id="assetLocation" required pattern="[ก-ุฯ-a-zA-Z\s]*" title="กรุณากรอกตัวเลขและตัวอักษร" placeholder="">
-			</div>
-			<div class="form-group">
-      <label>ประเภทของปัญหา</label>
-      <select class="form-control" name="cSection" id="cSection">
-      <option value="1">ครุภัณฑ์</option>
-      <option value="2">โปรแกรมมีปัญหา</option>
-      <option value="3">อุปกรณ์มีปัญหา</option>
-      </select>
-    </div>
+      </div>
+
 			<div class="form-group">
 				<label>หมายเลขครุภัณฑ์</label>
-				<input type="text" name="assetAmount" class="form-control" id="assetAmount" placeholder="">
+				<input type="text" name="assetAmount" class="form-control" required pattern="[0-9-a-zA-Zก-ุฯ-๙\s]*" title="กรุณากรอกตัวอักษร" id="assetName" placeholder="">
 			</div>
 			<div class="form-group">
-				<label>รายละเอียดการส่งซ่อม</label>
+				<label>ผู้รับสิทธิ์ถือครอง</label>
+				<input type="text" name="assetOwner" class="form-control" id="assetLocation" required pattern="[ก-ุฯ-a-zA-Z\s]*" title="กรุณากรอกตัวเลขและตัวอักษร" placeholder="">
+			</div>
+			<div class="form-group">
+      <label>สถานทีตั้งครุภัณฑ์</label>
+      <!-- <select class="form-control" name="cSection" id="cSection"> -->
+      <!-- <option value="1">Sc6</option>  <!-- drop down list --> -->
+      <!-- <option value="2">โปรแกรมมีปัญหา</option>
+      <option value="3">อุปกรณ์มีปัญหา</option>
+      </select> -->
+      <input type="text" name="assetLocation" class="form-control" id="assetLocation" required pattern="[ก-ุฯ-a-zA-Z\s]*" title="กรุณากรอกตัวเลขและตัวอักษร" placeholder="">
+    </div>
+			<div class="form-group">
+				<label>หมายเหตุ</label>
 				<input type="text" class="form-control" name="assetProsonal" id="assetProsonal" placeholder="">
 			</div>
 			<br>
 			<div align="center">
-				<input type="submit" name="submit" class="btn btn-success" id="addSubject" value="แจ้งซ่อม">
-				<input type="submit" name="submit" class="btn btn-danger" id="addQrcode" value="สแกน QR Code">
+				<input type="submit" name="submit" class="btn btn-success" id="changeOnwer" value="โอนสิทธิ์ผู้ถือครอง">
+        <input type="submit" name="submit" class="btn btn-danger" id="addQrcode" value="สแกน QR Code">
 			</div>
 			<br>
 		</form>
