@@ -32,7 +32,7 @@
       <div class="card-body p-0">
         <!-- Nested Row within Card Body -->
         <div class="row">
-          <div class="col-lg-5 d-none d-lg-block bg-register-image"></div>
+          <div class="col-lg-5"> <img src="https://www.kku.ac.th/files/fac_photo/sc01.jpg?fbclid=IwAR0huuD2QLA6M_QgEtAcaR1QHpwfhYrA5KJM0Px93CloK2SJeErGemyIqv4" width="500px" height="600px" ></div>
           <div class="col-lg-7">
             <div class="p-5">
               <div class="text-center">
