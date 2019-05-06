@@ -34,7 +34,7 @@ include "sidebar.php";
           <tbody>
             <tr>
               <td>คร.25615972645</td>
-              <td>คอมพิวเตอร์</td>
+              <td>คอมพิวเตอร์โน๊ตบุ๊ค</td>
               <td>SC.6601C</td>
               <td><font color="red">ถูกยืม</font></td>
               <td><a href='assetDetail.php' class='btn btn-primary' id='borrow' ><center>รายละเอียด</center></a></td>
