@@ -6,6 +6,7 @@ include "sidebar.php";
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
   <title></title>
 
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
