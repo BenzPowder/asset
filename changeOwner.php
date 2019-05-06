@@ -29,7 +29,7 @@ include "sidebar.php";
 			<div class="form-group">
       <label>สถานทีตั้งครุภัณฑ์</label>
       <!-- <select class="form-control" name="cSection" id="cSection"> -->
-      <!-- <option value="1">Sc6</option>  <!-- drop down list --> -->
+      <!-- <option value="1">Sc6</option>  <!drop down list -->
       <!-- <option value="2">โปรแกรมมีปัญหา</option>
       <option value="3">อุปกรณ์มีปัญหา</option>
       </select> -->

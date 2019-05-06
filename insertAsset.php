@@ -44,8 +44,12 @@ function fncSubmit()
       <div align="center">
           <label>นำเข้าครุภัณฑ์</label> <br><br>
       </div>
+      <label>หมายเลขชุดครุภัณฑ์</label>
+      <input type="text" name="assetHeadNumber" class="form-control" required pattern="[ก-ุฯ-a-zA-Z\s]*" title="กรุณากรอกตัวเลขและตัวอักษร" id="assetNumber" placeholder="">
+    </div>
+    <div class="form-group">
       <label>หมายเลขครุภัณฑ์</label>
-      <input type="text" name="assetNumber" class="form-control" required pattern="[ก-ุฯ-a-zA-Z\s]*" title="กรุณากรอกตัวเลขและตัวอักษร" id="assetNumber" placeholder="">
+      <input type="text" name="assetName" class="form-control" required pattern="[a-zA-Zก-ุฯ-๙\s]*" title="กรุณากรอกตัวอักษร" id="assetName" placeholder="">
     </div>
     <div class="form-group">
       <label>ชื่อครุภัณฑ์</label>
@@ -56,10 +60,14 @@ function fncSubmit()
       <input type="text" name="assetLocation" class="form-control" id="assetLocation" required pattern="[ก-ุฯ-a-zA-Z\s]*" title="กรุณากรอกตัวเลขและตัวอักษร" placeholder="">
     </div>
     <div class="form-group">
-      <label>วันที่ได้มา</label>
+      <label>วันที่จัดซื้อ</label>
       <?php
          include "calendar2.php";
          ?>
+    </div>
+    <div class="form-group">
+      <label>ระยะเวลาประกัน (ปี)</label>
+      <input type="text" name="assetInsurance" class="form-control" id="assetPrice" placeholder="">
     </div>
     <div class="form-group">
       <label>ราคา/หน่วย</label>
@@ -71,6 +79,10 @@ function fncSubmit()
     </div>
     <div class="form-group">
       <label>ผู้ถือครอง</label>
+      <input type="text" class="form-control" name="assetProsonal" id="assetProsonal" placeholder="">
+    </div>
+    <div class="form-group">
+      <label>จัดซื้อจาก</label>
       <input type="text" class="form-control" name="assetProsonal" id="assetProsonal" placeholder="">
     </div>
     <br>
