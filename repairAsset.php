@@ -34,7 +34,7 @@ include "sidebar.php";
       </select>
     </div>
 			<div class="form-group">
-				<label>เลขครุภัณฑ์</label>
+				<label>หมายเลขครุภัณฑ์</label>
 				<input type="text" name="assetAmount" class="form-control" id="assetAmount" placeholder="">
 			</div>
 			<div class="form-group">
@@ -44,6 +44,7 @@ include "sidebar.php";
 			<br>
 			<div align="center">
 				<input type="submit" name="submit" class="btn btn-success" id="addSubject" value="แจ้งซ่อม">
+				<input type="submit" name="submit" class="btn btn-danger" id="addQrcode" value="สแกน QR Code">
 			</div>
 			<br>
 		</form>
