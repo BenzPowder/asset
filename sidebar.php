@@ -82,11 +82,16 @@
         <a class="nav-link" href="returnAsset.php">
           <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/transfer-89-537154.png" width="20px" height="20px">
           <span>คืนครุภัณฑ์</span></a>
+          </li>
       <li class="nav-item">
         <a class="nav-link" href="changeOwner.php">
           <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/transfer-89-537154.png" width="20px" height="20px">
           <span>โอนสิทธิ์ผู้ถือครองครุภัณฑ์</span></a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="assetSell.php">
+          <img src="https://images.vexels.com/media/users/3/157256/isolated/preview/444a13e060df58c2af22710355955c07-black-and-while-stacked-books-icon-by-vexels.png" width="20px" height="20px">
+          <span>จำหน่ายครุภัณฑ์</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="repairAsset.php">
