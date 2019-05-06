@@ -124,7 +124,7 @@ include "sidebar.php";
 													<td><center>คอมพิวเตอร์</center></td>
 													<td><center>1</center></td>
 													<td><center>1</center></td>
-				
+
 												</tr>
 													</tbody>
 												</table>
@@ -135,7 +135,9 @@ include "sidebar.php";
 
 													<a href='asset.php' class='btn btn-info' id='borrow' ><center>ออกใบยืม</center></a>
 
-													<a href='asset.php' class='btn btn-danger' id='borrow' ><center>จบการทำงาน</center></a>
+													<a href='asset.php' class='btn btn-warning' id='borrow' ><center>จบการทำงาน</center></a>
+
+													<a href='asset.php' class='btn btn-danger' id='borrow' ><center>สแกน QR Code</center></a>
 												</center>
 
 											</div>

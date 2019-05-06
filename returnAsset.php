@@ -97,7 +97,7 @@ include "sidebar.php";
 													<td><center>1</center></td>
 													<td><center>15,000 บาท</center></td>
 													<td><center>.....</center></td>
-				
+
 												</tr>
 											</tbody>
 										</table>
@@ -112,7 +112,7 @@ include "sidebar.php";
 									<input type="text" class="form-control" id="totalFines" name="totalFines" placeholder="">
 								</div>
 								<label for="inputEmail" class="col-sm-2 col-form-label">บาท</label>
-							</div>	
+							</div>
 
 							<div class="form-group row">
 								<label for="inputEmail" class="col-sm-2 col-form-label">ส่งเกินกำหนด</label>
@@ -124,7 +124,7 @@ include "sidebar.php";
 									<input type="text" class="form-control" id="fines" name="fines" placeholder="">
 								</div>
 								<label for="inputEmail" class="col-sm-2 col-form-label">บาท</label>
-							</div>	
+							</div>
 
 							<div class="form-group row">
 								<label for="inputEmail" class="col-sm-2 col-form-label">รวมค่าปรับสุทธิ</label>
@@ -132,7 +132,7 @@ include "sidebar.php";
 									<input type="text" class="form-control" id="total" name="total" placeholder="">
 								</div>
 								<label for="inputEmail" class="col-sm-2 col-form-label">บาท</label>
-							</div>	
+							</div>
 
 										<br>
 										<center>
@@ -140,7 +140,9 @@ include "sidebar.php";
 
 											<a href='asset.php' class='btn btn-info' id='borrow' ><center>ออกใบคืน/ใบเสร็จ</center></a>
 
-											<a href='asset.php' class='btn btn-danger' id='borrow' ><center>จบการทำงาน</center></a>
+											<a href='asset.php' class='btn btn-warning' id='borrow' ><center>จบการทำงาน</center></a>
+
+											<a href='asset.php' class='btn btn-danger' id='borrow' ><center>สแกน QR Code</center></a>
 										</center>
 
 									</div>
@@ -188,4 +190,3 @@ include "sidebar.php";
 
 <link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.4.0/css/bootstrap4-toggle.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.4.0/js/bootstrap4-toggle.min.js"></script>
-
