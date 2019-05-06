@@ -11,8 +11,6 @@ include "sidebar.php";
     <title>Bootstrap Table with Add and Delete Row Feature</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round|Open+Sans">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <style type="text/css">
@@ -25,7 +23,7 @@ include "sidebar.php";
             width: 700px;
             margin: 30px auto;
             background: #fff;
-            padding: 20px;  
+            padding: 20px;
             box-shadow: 0 1px 1px rgba(0,0,0,.05);
         }
         .table-title {
@@ -68,7 +66,7 @@ include "sidebar.php";
             display: inline-block;
             margin: 0 5px;
             min-width: 24px;
-        }    
+        }
         table.table td a.add {
             color: #27C46B;
         }
@@ -86,7 +84,7 @@ include "sidebar.php";
             margin-right: -1px;
             position: relative;
             top: 3px;
-        }    
+        }
         table.table .form-control {
             height: 32px;
             line-height: 32px;
@@ -114,7 +112,7 @@ include "sidebar.php";
         '<td><input type="text" class="form-control" name="phone" id="phone"></td>' +
         '<td>' + actions + '</td>' +
         '</tr>';
-        $("table").append(row);     
+        $("table").append(row);
         $("table tbody tr").eq(index + 1).find(".add, .edit").toggle();
         $('[data-toggle="tooltip"]').tooltip();
     });
@@ -134,16 +132,16 @@ include "sidebar.php";
         if(!empty){
             input.each(function(){
                 $(this).parent("td").html($(this).val());
-            });         
+            });
             $(this).parents("tr").find(".add, .edit").toggle();
             $(".add-new").removeAttr("disabled");
-        }       
+        }
     });
     // Edit row on edit button click
-    $(document).on("click", ".edit", function(){        
+    $(document).on("click", ".edit", function(){
         $(this).parents("tr").find("td:not(:last-child)").each(function(){
             $(this).html('<input type="text" class="form-control" value="' + $(this).text() + '">');
-        });     
+        });
         $(this).parents("tr").find(".add, .edit").toggle();
         $(".add-new").attr("disabled", "disabled");
     });
@@ -160,10 +158,7 @@ include "sidebar.php";
         <div class="table-wrapper">
             <div class="table-title">
                 <div class="row">
-                    <div class="col-sm-8"><h2>Employee <b>Details</b></h2></div>
-                    <div class="col-sm-4">
-                        <button type="button" class="btn btn-info add-new"><i class="fa fa-plus"></i> Add New</button>
-                    </div>
+                    <div class="col-sm-8"><h2><b>จำหน่ายครุภัณฑ์</b></h2></div>
                 </div>
             </div>
             <div class="card-body">
@@ -174,7 +169,7 @@ include "sidebar.php";
                             <th>หมายเลขครุภัณฑ์</th>
                             <th>ชื่อครุภัณฑ์</th>
                             <th>สถานที่ตั้ง</th>
-                            <th>สถานะ</th>
+                            <th>แก้ไข</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -207,7 +202,7 @@ include "sidebar.php";
                                 <a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
                                 <a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
                             </td>
-                        </tr>   
+                        </tr>
                         <tr>
                             <td>คร.25615972648</td>
                             <td>คีย์บอร์ด</td>
@@ -217,7 +212,7 @@ include "sidebar.php";
                                 <a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
                                 <a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
                             </td>
-                        </tr>     
+                        </tr>
                         <tr>
                             <td>คร.25615972649</td>
                             <td>โต๊ะคอมพิวเตอร์</td>
@@ -227,10 +222,10 @@ include "sidebar.php";
                                 <a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
                                 <a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
                             </td>
-                        </tr>        
+                        </tr>
                     </tbody>
                 </table>
             </div>
-        </div>     
+        </div>
     </body>
-    </html>                            
+    </html>
